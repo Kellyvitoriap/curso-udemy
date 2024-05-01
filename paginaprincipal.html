@@ -109,7 +109,6 @@
 
         <h3>Adição de tabelas</h3>
         <!--criação de tabelas-->
-            /
 
         <table border="2" width="100%">
                 <tbody><tr> 
@@ -131,31 +130,70 @@
                     <td>dados da tabela</td>
                     <td colspan="2"> <!--colspan para ocupar o espaço de dois td  -->
                         <img src="imagens/271251-1.jpg" width="30">
-                    </td><td>
                 </td></tr></tbody></table>
 
     <hr>
 
-     <h3>Formularios</h3>
+    <h3>Formularios</h3>
         
 
             <form>
                 <!--formulario de login-->
                 Login: <br>
-                <input type="text" name="login">
+                <input type="text" name="login"><!--para adicionar caixa de interaçao com o usuario (texto)-->
                 <br>
 
                 Senha: <br>
-                <input type="password" name="senha">
+                <input type="password" name="senha" > <!--para adicionar caixa de interaçao com o usuario (senhas)-->
                 <p>
 
-                <input type="submit" name="enviar">
+                <input type="submit" name=" Botão que envia para URL"><!--para adicionar caixa de interaçao com o usuario (botão de enviar, esse não é recomendado por que as informações ficam na URL)-->
                 </p><p>
 
-                <input type="button" name="botão">
+                <input type="button" name="botão" value="Botão"><!--para adicionar caixa de interaçao com o usuario (botão)-->
+                <br>
+
+                <p>
+                    <h4>Seleção</h4>
+                    <input type="radio" name="sexo" valor="f">Feminino <!--para adicionar caixa de interaçao com o usuario (seleção)-->
+                    <br>
+                    <input type="radio" name="sexo" valor="m">Masculino
+                    <br>
+                </p>
+
+                
+                <p>
+                    <h4>Multipla escolha</h4>
+                    <input type="checkbox" name="esportes">Fultebol<!--para adicionar caixa de interaçao com o usuario (caixa de seleção, multipla escolha)-->
+                    <br>
+                    <input type="checkbox" name=" esportes">Muay thai
+                    <br>
+                    <input type="checkbox" name=" esportes">balé
+                    <br>
+                </p>
+
+                <p>
+                    <h3>Combo de seleção</h3> <!--combo de opções-->
+                    <select>
+                        <option>SP</option>
+                        <option>MG</option>
+                        <option>RJ</option>
+                        <option>RS</option>
+                        <option>CE</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <h4>Caixa de texto</h4>
+                    <textarea></textarea>
+                </p>
 
                
 
-            </p></form>
+            </form>
+        
+    
+    
  </body>
  </html>
